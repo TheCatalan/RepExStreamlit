@@ -7,7 +7,7 @@ import ast          # ← move here
 import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
-from streamlit_javascript import st_javascript
+# from streamlit_javascript import st_javascript
 from uuid import uuid4
 from streamlit_scroll_to_top import scroll_to_here
 import time
