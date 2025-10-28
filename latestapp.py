@@ -8,8 +8,8 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 # from streamlit_javascript import st_javascript
-# from uuid import uuid4
-# from streamlit_scroll_to_top import scroll_to_here
+from uuid import uuid4
+from streamlit_scroll_to_top import scroll_to_here
 import time
 import pandas as pd  # you already have this; OK to ignore if present
 from pathlib import Path
@@ -1213,8 +1213,7 @@ if "confidence_order" not in st.session_state:     # save order
     st.session_state.confidence_order = []
 
 if st.session_state.scroll_to_top:
-    empty_var = None
-    # scroll_to_here(0, key='top')  # Scroll to the top of the page
+    scroll_to_here(0, key='top')  # Scroll to the top of the page
     st.session_state.scroll_to_top = False  # Reset the state after scrolling
 
 def scroll():
