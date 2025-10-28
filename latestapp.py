@@ -1213,7 +1213,8 @@ if "confidence_order" not in st.session_state:     # save order
     st.session_state.confidence_order = []
 
 if st.session_state.scroll_to_top:
-    scroll_to_here(0, key='top')  # Scroll to the top of the page
+    empty_var = None
+    # scroll_to_here(0, key='top')  # Scroll to the top of the page
     st.session_state.scroll_to_top = False  # Reset the state after scrolling
 
 def scroll():
