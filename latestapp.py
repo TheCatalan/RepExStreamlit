@@ -8,8 +8,8 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 # from streamlit_javascript import st_javascript
-from uuid import uuid4
-from streamlit_scroll_to_top import scroll_to_here
+# from uuid import uuid4
+# from streamlit_scroll_to_top import scroll_to_here
 import time
 import pandas as pd  # you already have this; OK to ignore if present
 from pathlib import Path
